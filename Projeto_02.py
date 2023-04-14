@@ -88,7 +88,6 @@ st.markdown('# <div style="text-align:center"> [Previsão de renda](https://gith
             unsafe_allow_html=True)
 
 
-# '---'
 st.divider()
 
 
@@ -101,8 +100,6 @@ st.markdown('''
 Uma instituição financeira quer conhecer melhor o perfil de renda de seus novos clientes para diversos fins, por exemplo, melhor dimensionar o limite de cartões de crédito dos novos clientes, sem necessariamente solicitar olerites ou documentações que impactem na experiência do seu cliente.
 
 Para isto, conduziu um estudo com alguns clientes, comprovando suas rendas através de olerites e outros documentos, e pretende construir um modelo preditivo para esta renda com base em algumas variáveis que já possui em seu banco de dados.
-
-> **Fonte:** [Módulo 10 atividade 1](https://github.com/rhatiro/Curso_EBAC-Profissao_Cientista_de_Dados/blob/main/Mo%CC%81dulo%2010%20-%20Descritiva%20II%20-%20Ana%CC%81lise%20descritiva%20para%20resposta%20conti%CC%81nua/Exerci%CC%81cio%201/Profissao-Cientista%20de%20Dados_M10_support%20material_assignment01%20-%20Roberto_Hatiro.ipynb)
 ''')
 
 
@@ -172,7 +169,6 @@ st.text(buffer.getvalue())
 
 st.markdown('''
 ### Entendimento dos dados - Univariada <a name="univariada"></a>
-Nesta etapa tipicamente avaliamos a distribuição de todas as variáveis.
 ''', unsafe_allow_html=True)
 
 
@@ -327,14 +323,6 @@ with st.expander("Análise das variáveis qualitativas ao longo do tempo", expan
 
 st.markdown('''
 ## Etapa 3 Crisp-DM: Preparação dos dados<a name="3"></a>
-
-Nessa etapa realizamos tipicamente as seguintes operações com os dados:
-
- - **seleção**: Já temos os dados selecionados adequadamente?
- - **limpeza**: Precisaremos identificar e tratar dados faltantes
- - **construção**: construção de novas variáveis
- - **integração**: Temos apenas uma fonte de dados, não é necessário integração
- - **formatação**: Os dados já se encontram em formatos úteis?
 ''', unsafe_allow_html=True)
 
 
@@ -364,11 +352,6 @@ with st.expander("Conversão das variáveis categóricas em variáveis numérica
 
 st.markdown('''
 ## Etapa 4 Crisp-DM: Modelagem <a name="4"></a>
-
-Nessa etapa que realizaremos a construção do modelo. Os passos típicos são:
-- Selecionar a técnica de modelagem
-- Desenho do teste
-- Avaliação do modelo
 ''', unsafe_allow_html=True)
 
 
@@ -466,7 +449,7 @@ st.markdown('''
 ''', unsafe_allow_html=True)
 
 
-st.markdown('Nessa etapa colocamos em uso o modelo desenvolvido, normalmente implementando o modelo desenvolvido em um motor que toma as decisões com algum nível de automação.')
+st.markdown('[Simulando a previsão de renda](https://rhatiro-ebac-projeto02-previsao-renda.streamlit.app/~/+/Simulac%CC%A7a%CC%83o)')
 
 
 '---'
