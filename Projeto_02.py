@@ -202,7 +202,7 @@ st.markdown('''
 
 st.write((renda
           .iloc[:, 3:]
-          .corr()
+          .corr(numeric_only=True)
           .tail(n=1)
           ))
 
@@ -239,7 +239,7 @@ cmap = sns.diverging_palette(h_neg=100,
                              as_cmap=True,
                              sep=1,
                              center='light')
-ax = sns.clustermap(data=renda.corr(),
+ax = sns.clustermap(data=renda.corr(numeric_only=True),
                     figsize=(10, 10),
                     center=0,
                     cmap=cmap)
